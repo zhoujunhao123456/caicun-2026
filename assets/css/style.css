@@ -663,6 +663,8 @@ body.menu-open .mm-links a:nth-child(6) { transition-delay: 0.46s; }
   grid-template-columns: repeat(4, 1fr);
   gap: 26px;
 }
+/* 游玩攻略：三卡一行 */
+.guide .cards-grid { grid-template-columns: repeat(3, 1fr); max-width: 980px; }
 .card {
   position: relative;
   padding: 46px 30px 40px;
@@ -701,7 +703,7 @@ body.menu-open .mm-links a:nth-child(6) { transition-delay: 0.46s; }
 .card h3 { font-size: 21px; letter-spacing: 0.3em; margin-bottom: 16px; }
 .card p { font-size: 14.5px; line-height: 1.95; color: var(--ink-faint); }
 
-/* ---------- 实践足迹 ---------- */
+/* ---------- 景点巡礼（横向长卷） ---------- */
 .journey { background: var(--paper-warm); }
 .journey-body { position: relative; }
 .journey-track { position: relative; max-width: 1120px; margin: 0 auto; }
@@ -745,7 +747,7 @@ body.menu-open .mm-links a:nth-child(6) { transition-delay: 0.46s; }
   box-shadow: 0 6px 18px rgba(34, 64, 47, 0.35);
   white-space: nowrap;
 }
-.day-marker time { font-size: 13px; letter-spacing: 0.2em; color: var(--ink-faint); background: var(--paper-warm); padding: 0 8px; }
+.day-marker .day-sub { font-size: 13px; letter-spacing: 0.2em; color: var(--ink-faint); background: var(--paper-warm); padding: 0 8px; }
 .day-text h3 {
   font-size: clamp(22px, 3vw, 28px);
   letter-spacing: 0.12em;
@@ -1110,6 +1112,7 @@ body.menu-open .mm-links a:nth-child(6) { transition-delay: 0.46s; }
 }
 .footer-org { line-height: 2; margin-bottom: 14px; }
 .footer-time { font-family: var(--latin); letter-spacing: 0.18em; color: rgba(246, 241, 229, 0.4); }
+.footer-credit { margin-top: 16px; font-size: 12.5px; letter-spacing: 0.04em; color: rgba(246, 241, 229, 0.36); }
 
 /* ---------- 回到卷首 ---------- */
 .to-top {
@@ -1196,6 +1199,7 @@ body.menu-open .mm-links a:nth-child(6) { transition-delay: 0.46s; }
 
 /* ---------- 响应式 ---------- */
 @media (max-width: 1024px) {
+  .nav-links { gap: 18px; }
   .cards-grid { grid-template-columns: repeat(2, 1fr); }
   .team-grid { grid-template-columns: repeat(2, 1fr); }
   .masonry { columns: 2; }
@@ -1214,7 +1218,7 @@ body.menu-open .mm-links a:nth-child(6) { transition-delay: 0.46s; }
   .timeline-line { left: 8px; }
   .day { grid-template-columns: 1fr; gap: 22px; padding: 52px 0 52px 34px; align-items: start; }
   .day-marker { position: static; transform: none; flex-direction: row; gap: 12px; align-items: center; }
-  .day-marker time { background: transparent; padding: 0; }
+  .day-marker .day-sub { background: transparent; padding: 0; }
   .day.alt .day-text { order: 0; }
   .day.alt .day-photos { order: 1; }
   .red-body { grid-template-columns: 1fr; gap: 40px; }
