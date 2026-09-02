@@ -1,6 +1,6 @@
 # 印象蔡村 · 山青水秀月亮湾
 
-安徽省宣城市泾县蔡村镇文旅数字展示网站 · [在线预览]([https://zhoujunhao123456.github.io/caicun-2026/](https://zhoujunhao123456.github.io/caicun-24-8-branch-zhoujunhao123465-from-16-8-main-zhoujunhao123456-2026/))
+安徽省宣城市泾县蔡村镇文旅数字展示网站 · [在线预览](https://zhoujunhao123456.github.io/caicun-24-8-branch-zhoujunhao123465-from-16-8-main-zhoujunhao123456-2026/)
 
 国家 AAA 级月亮湾景区、龙映山、皖南川藏线、千年宣纸非遗、红色记忆、爱民翠尖茶与“华夏毛竹第一镇”——一页看尽泾县蔡村。
 
